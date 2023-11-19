@@ -1,8 +1,11 @@
 # CRUD API with Go, PostgreSQL, Docker
 
-This is a CRUD API written in Golang and attached to PostgreSQL in a 
-dockerized environment. It takes in a person's name and email address,
-then generates an ID for them once it is stored in the database.
+This is a CRUD API written in Golang and attached to a PostgreSQL database 
+in a dockerized environment. 
+
+It takes in a person's name and email address, then generates an ID for 
+them once it is stored in the database.
+
 Throughout the process, the data is encoded and decoded from struct
 to JSON during the processing whenever required.
 
