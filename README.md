@@ -7,7 +7,7 @@ It takes in a user's `name` and `email address`, then generates an `ID` for
 them once it is stored in the database.
 
 Throughout the process, the data is encoded and decoded from struct
-to JSON during the processing whenever required.
+to JSON whenever may be required.
 
 Upon cloning this repository, you can run the project by typing the
 following command:
