@@ -3,8 +3,8 @@
 This is a CRUD API written in Golang and attached to a PostgreSQL database 
 in a dockerized environment. 
 
-It takes in a user's `name` and `email address`, then generates an `ID` for 
-them once it is stored in the database.
+It takes in a user's `name` & `email address`, generates an `ID` and
+stores it in a database.
 
 Throughout the process, the data is encoded and decoded from struct
 to JSON whenever may be required.
