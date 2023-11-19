@@ -6,8 +6,8 @@ in a dockerized environment.
 It takes in a user's `name` & `email address`, generates an `ID` and
 stores it in a database.
 
-Throughout the process, the data is encoded and decoded from struct
-to JSON whenever may be required.
+Throughout the process, the data is encoded and decoded from GO struct
+to JSON as required.
 
 Upon cloning this repository, you can run the project by typing the
 following command:
@@ -20,12 +20,12 @@ It should generate the following output:
 ![Screenshot from 2023-11-19 14-08-48](https://github.com/devbird007/GO-crud-api-with-postgres-in-docker/assets/100073682/9535ff11-ca0e-47d2-a9c2-4a253cd66915)
 
 
-The port being used is port `8000`, if you are running this project locally, it 
+The port being used is `port 8000`. If you are running this project locally, it 
 is accessible at the following URL:
 ```
 localhost:8000/users
 ```
- You can use any API client of your choice to test the APIs, my chosen API 
+ You can use any API client of your choice to test the APIs. My chosen API 
  client was Thunder Client, a vscode extension. Listed to the left in the 
  picture below are the five types of requests the API handles.
  
