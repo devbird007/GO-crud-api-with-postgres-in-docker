@@ -1,4 +1,4 @@
-module api
+module github.com/devbird007/GO-crud-api-with-postgres-in-docker
 
 go 1.21.3
 
